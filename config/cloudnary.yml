@@ -1,0 +1,9 @@
+development:
+  cloud_name: <%= ENV["dib2nyadi"] %>
+  api_key: <%= ENV["345988584121794"] %>
+  api_secret: <%= ENV["CXi4Vpa3mW5d0BUpIW7DacMW8ds"] %>
+
+test:
+  cloud_name: <%= ENV["dib2nyadi"] %>
+  api_key: <%= ENV["345988584121794"] %>
+  api_secret: <%= ENV["CXi4Vpa3mW5d0BUpIW7DacMW8ds"] %>
