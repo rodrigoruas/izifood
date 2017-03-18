@@ -32,7 +32,7 @@ gem "pundit"
 group :development, :test do
   gem 'binding_of_caller'
   gem 'better_errors'
-
+  gem 'sqlite3'
   gem 'pry-byebug'
   gem 'pry-rails'
   gem 'spring'
@@ -40,4 +40,7 @@ group :development, :test do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
+group :production do
+  gem 'pg'
+end
 
