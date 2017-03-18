@@ -16,6 +16,7 @@ gem 'money-rails', '~>1'
 gem 'stripe'
 gem 'turbolinks'
 
+
 gem "sqlite3"
 
 gem 'sass-rails'
