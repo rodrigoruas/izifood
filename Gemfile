@@ -17,8 +17,6 @@ gem 'stripe'
 gem 'turbolinks'
 
 
-gem "sqlite3"
-
 gem 'sass-rails'
 gem 'jquery-rails'
 gem 'uglifier'
